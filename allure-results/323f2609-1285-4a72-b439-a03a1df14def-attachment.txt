@@ -1,0 +1,8 @@
+Sauce Labs Backpack
+Sauce Labs Bike Light
+Sauce Labs Bolt T-Shirt
+$29.99
+$9.99
+$15.99
+The total sum is: $55.97
+Test completed: Complete End to End flow for Checkout from login to completeing the order 

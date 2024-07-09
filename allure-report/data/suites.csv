@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Tue Jul 09 07:48:56 IST 2024","Tue Jul 09 07:49:07 IST 2024","11364","chromium","HomePage.spec.ts","SauceLabs Tests to Add Items in the cart","","","Complete End to End flow for Checkout from login to completeing the order",""
