@@ -19,12 +19,15 @@ Once you have Node.js installed, you can install Playwright globally using npm `
 ### Project Structure
 
 **Pages**: Pages is the folder where it contains the HomePage class methods, This is the page where written all functions and thier assertions. 
+
 **Tests**: Tests folder will contains all tests which are written as part of this use case, current created the homepage.spec.js file where it contain the entire end to end flow
+
 **Utils**: This is folder, which contains logging tests file and credentials.json file, Logged class used to added the logges which running the tests and added all logs on the test-log.txt file, Also credentials file where we have stored the all user credentials. 
 
 **Reporting**: As part of this framework design, integrated the `allure-playwright` reporting system. Reports generated in the folder. 
 
 **GenerateReports**: As part of this framework design, integrated the `allure-playwright` reporting system. Reports generated in the folder. 
+
 ***Run Commands to Generate reports***
 1. Install the allure-playwright reports using this command `npm i -D allure-playwright`
 2. Install CommandLine reports `npm install -D allure-commandline`
