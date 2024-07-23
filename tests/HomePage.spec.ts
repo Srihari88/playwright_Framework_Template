@@ -8,7 +8,7 @@ const credentials = JSON.parse(fs.readFileSync("utils/credentials.json", "utf8")
 
 test.describe("SauceLabs Tests to Add Items in the cart", () => {
   test.beforeEach(async ({ page }) => {
-    await page.goto("/");
+    await page.goto("/");  //,{waitUntil:"commit"}
   });
 
   test.afterEach(async ({ page }: any, testInfo: { title: any; }) => {
