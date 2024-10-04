@@ -32,6 +32,7 @@ test.describe('API Test', () => {
         expect(responseBody.id).toBeTruthy()
         expect(responseBody.name).toBe('morpheus')
         expect(responseBody.job).toBe('leader')
+        
 
     })
 
